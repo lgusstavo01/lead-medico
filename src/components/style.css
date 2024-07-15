@@ -1,0 +1,56 @@
+.swiper {
+    height: auto;
+    max-width: 100%;
+  
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    height: auto;
+  
+    /* border: 1px solid var(--orange); */
+    color: var(--white);
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  
+    border-radius: 20px;
+  
+    margin: 0 auto;
+    object-fit: cover;
+  }
+
+  .swiper-slide img:hover{
+    cursor: grab;
+  }
+  
+  .swiper-slide p:last-child {
+    font-size: .9rem;
+    line-height: 1.5rem;
+  } 
+  
+  .textSwiper{
+      margin-top: 1rem;
+  
+      display: flex;
+      flex-direction: row;
+  
+      width: 90%;
+  }
+  
+  .depoimento{
+      margin-top: 2rem;
+  }
+  
+  .textSwiper h2{
+    color: var(--orange);
+  }
+  

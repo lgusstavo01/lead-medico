@@ -1,0 +1,22 @@
+.box {
+    background-color: var(--bg);
+  
+    border-top-left-radius: 50% 20px;
+    border-top-right-radius: 50% 20px;
+  }
+  
+  .wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+    padding-bottom: 8rem;
+    padding-top: 4rem;
+  
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .wrapper div h2 {
+    text-align: center;
+    font-size: 2.8rem;
+    color: var(--white);
+  }

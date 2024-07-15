@@ -1,0 +1,19 @@
+:root{
+    --bg: #0A182B;
+    --text: #FA6103;
+    --white: #fff;
+
+    --button: #FA6103;
+    --button-hover: #FA7603;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Roboto', sans-serif;
+}

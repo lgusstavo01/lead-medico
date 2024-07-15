@@ -1,0 +1,58 @@
+.wrapper{
+    max-width: 80rem;
+    margin: 0 auto;
+    padding-bottom: 8rem;
+    padding-top: 4rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+
+    font-size: 1.8rem;
+    letter-spacing: .2rem;
+    color: var(--bg);
+}
+
+.dados {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 2rem;
+    list-style: none;
+}
+
+.dados li:last-child span:last-child {
+    margin-top: 1rem;
+}
+
+.dados p{
+    letter-spacing: .2rem;
+}
+
+.dados li h3 {
+    font-size: 5rem;
+    color: var(--text);
+}
+
+.value {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    padding-top: .2rem;
+}
+
+.value span {
+    align-self: flex-start;
+    font-weight: bold;
+}
+
+span {
+    letter-spacing: .2rem;
+}

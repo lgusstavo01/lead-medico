@@ -1,0 +1,45 @@
+.box{
+    background-color: var(--white);
+    height: 20rem;
+}
+
+.wrapper{
+    max-width: 80rem;
+    margin: 0 auto;
+    padding-bottom: 8rem;
+    padding-top: 4rem;
+  
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.wrapper div{
+    flex-grow: 1; /* Adiciona flexibilidade aos elementos filhos */
+    max-width: 45%; /* Limita a largura máxima */
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h2 {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.title h2 span {
+    color: var(--text);
+}
+
+.list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.list ul li {
+    font-size: 1.1rem;
+}

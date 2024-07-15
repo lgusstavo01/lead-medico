@@ -1,0 +1,93 @@
+.box {
+  background-color: var(--bg);
+  border-top-left-radius: 50% 20px;
+  border-top-right-radius: 50% 20px;
+
+  border-bottom-left-radius: 50% 20px;
+  border-bottom-right-radius: 50% 20px;
+}
+
+.wrapper {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding-bottom: 8rem;
+  padding-top: 4rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.8rem;
+  color: var(--white);
+}
+
+.title span {
+    color: var(--text)
+}
+
+.boxCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.boxCards div {
+    margin-top: 5rem;
+    width: 30%;
+    border: 1px solid var(--text);
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.boxCards div h2{
+    text-align: center;
+    margin-bottom: .5rem;
+    font-size: 3rem;
+    color: var(--text);
+}
+
+.boxCards div p {
+    color: var(--white);
+    text-align: center;
+}
+
+.cta{
+    margin-top: 4rem;
+    font-size: 2rem;
+    color: var(--white);
+
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+}
+
+.cta h3{
+    text-align: center;
+}
+
+.cta button {
+    padding: 1rem 0;
+    width: 30%;
+    margin: 0 auto;
+
+    border-radius: .5rem;
+    border: none;
+
+    background-color: var(--button);
+    transition: all;
+    transition-duration: .2s;
+}
+
+.cta button p {
+    font-size: 1.1rem;
+    color: var(--white);
+}
+
+.cta button:hover {
+    background-color: var(--button-hover);
+    cursor: pointer;
+    letter-spacing: .3rem;
+}
