@@ -25,7 +25,15 @@ export function Hero() {
         </div>
       </div>
       <div className={styles.video}>
-        <video src="https://www.youtube.com/watch?v=H3wtItkfwQ4" controls></video>
+      <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/H3wtItkfwQ4" 
+            title="YouTube video player" 
+            frameBorder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowFullScreen>
+          </iframe>
         <button>QUERO INVESTIR NO DIGITAL</button>
       </div>
     </section>

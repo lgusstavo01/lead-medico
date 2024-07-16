@@ -1,0 +1,59 @@
+.box {
+  background-color: var(--white);
+
+  border-top-left-radius: 50% 20px;
+  border-top-right-radius: 50% 20px;
+
+  border-bottom-left-radius: 50% 20px;
+  border-bottom-right-radius: 50% 20px;
+}
+
+.wrapper {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding-bottom: 8rem;
+  padding-top: 4rem;
+
+  display: flex;
+  flex-direction: row;
+
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin: 0 auto;
+  max-width: 50%;
+}
+
+.text p{
+  letter-spacing: .2rem;
+  font-size: 1.5rem;
+}
+
+.text h2 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: var(--text);
+}
+
+.wrapper video {
+  width: 350px;
+  height: auto;
+
+  border: 1px solid var(--text);
+  border-radius: .5rem;
+}
+
+.paragrafo {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.paragrafo p {
+  font-size: 1.3rem;
+  letter-spacing: normal;
+}

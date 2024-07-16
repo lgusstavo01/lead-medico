@@ -1,0 +1,21 @@
+.box {
+    background-color: var(--white);
+  
+    border-top-left-radius: 50% 20px;
+    border-top-right-radius: 50% 20px;
+  
+    border-bottom-left-radius: 50% 20px;
+    border-bottom-right-radius: 50% 20px;
+  }
+  
+  .wrapper {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    padding-top: 4rem;
+  
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  
