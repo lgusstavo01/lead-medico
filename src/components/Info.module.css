@@ -56,3 +56,30 @@
 span {
     letter-spacing: .2rem;
 }
+
+@media (max-width: 440px) {
+    .box{
+        overflow: hidden;
+    }
+
+    .title h2 {
+        text-align: center;
+    }
+
+    .dados {
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .dados li {
+        text-align: center;
+    }
+
+    .dados p {
+        font-weight: bold;
+    }
+
+    .dados value {
+        margin: 0 auto;
+    }
+}

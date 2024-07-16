@@ -57,3 +57,24 @@
   font-size: 1.3rem;
   letter-spacing: normal;
 }
+
+@media (max-width: 440px) {
+  .wrapper{
+    max-width: 100%;
+    overflow: hidden;
+    flex-direction: column;
+  }
+
+  .text{
+    max-width: 90%;
+  }
+
+  .text p {
+    margin-top: 1rem;
+  }
+
+  video {
+    margin: 0 auto;
+    margin-top: 3rem;
+  }
+}

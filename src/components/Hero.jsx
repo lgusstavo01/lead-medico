@@ -17,10 +17,10 @@ export function Hero() {
         </div>
         <div className={styles.list}>
           <ul>
-            <li><IoIosArrowRoundForward size={15}/>Criativos ilimitados</li>
-            <li><IoIosArrowRoundForward size={18}/>Reuniões para análise de desempenhos</li>
-            <li><IoIosArrowRoundForward size={18}/>Desenvovlimento de uma Landing Page</li>
-            <li><IoIosArrowRoundForward size={15}/>Suporte 24/7</li>
+            <li><div className={styles.icon}><IoIosArrowRoundForward size={15}/></div><p>Criativos ilimitados</p></li>
+            <li><div className={styles.icon}><IoIosArrowRoundForward size={15}/></div><p>Reuniões para análise de desempenhos</p></li>
+            <li><div className={styles.icon}><IoIosArrowRoundForward size={15}/></div><p>Desenvovlimento de uma Landing Page</p></li>
+            <li><div className={styles.icon}><IoIosArrowRoundForward size={15}/></div><p>Suporte 24/7</p></li>
           </ul>
         </div>
       </div>

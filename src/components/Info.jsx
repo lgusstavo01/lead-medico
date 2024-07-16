@@ -21,10 +21,7 @@ export function Info() {
             </li>
             <li>
               <p>MAIS DE</p>
-              <div className={styles.value}>
-                <span>R$</span>
-                <h3>1MM</h3>
-              </div>
+              <h3>1MM</h3>
               <span>De faturamento gerado com nossas lojas</span>
             </li>
           </ul>

@@ -91,3 +91,26 @@
     cursor: pointer;
     letter-spacing: .3rem;
 }
+
+@media (max-width: 440px) {
+    .boxCards{
+        flex-direction: column;
+    }
+
+    .wrapper{
+        max-width: 90%;
+    }
+
+    .boxCards div {
+        width: 90%;
+        margin-top: 2rem;
+    }
+
+    .boxCards div p {
+        font-size: 1.2rem;
+    }
+
+    .cta button{
+        width: 90%;
+    }
+}

@@ -25,7 +25,7 @@ export function Carousel() {
             autoplay={{ delay: 3000 }}
             breakpoints={{
               0: {
-                slidesPerView: 3,
+                slidesPerView: 1,
                 spaceBetween: 10,
               },
               500: {

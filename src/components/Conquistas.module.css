@@ -43,3 +43,29 @@
 .list ul li {
     font-size: 1.1rem;
 }
+
+
+@media (max-width: 440px) {
+    .box{
+        height: 35rem;
+    }
+
+    .wrapper{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2.5rem;
+        overflow-x: hidden;
+        align-items: center;
+    }
+
+    .wrapper div{
+        text-align: center;
+        max-width: 90%;
+    }
+
+    .title{
+        width: 100%;
+    }
+}

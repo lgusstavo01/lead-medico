@@ -113,3 +113,50 @@
     letter-spacing: .3rem;
 }
 
+@media (max-width: 440px) {
+    .wrapper{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+
+    .cta{
+        text-align: center;
+    }
+
+    .cta img {
+        margin: 0 auto;
+    }
+
+    .list ul{
+        display: flex;
+        flex-direction: column;
+        
+        gap: .5rem;
+        
+
+        font-size: 1.3rem;
+    }
+
+    .list ul li{
+        flex-direction: column;
+    }
+
+    .list ul li p {
+        text-align: center;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .video iframe{
+        width: 100% !important;
+    }
+
+    .video button {
+        font-size: .85rem;
+    }
+}

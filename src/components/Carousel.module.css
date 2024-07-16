@@ -1,28 +1,40 @@
-.container{
-    max-width: 80rem;
-    margin: 0 auto;
+.container {
+  max-width: 80rem;
+  margin: 0 auto;
 
-    color: var(--white);
+  color: var(--white);
 
-    padding-top: 8rem;
-    margin-bottom: 3rem;
+  padding-top: 8rem;
+  margin-bottom: 3rem;
 }
 
-.textContainer{
-    text-align: center;
+.textContainer {
+  text-align: center;
 
-    font-size: 2.6rem;
+  font-size: 2.6rem;
 
-    margin-bottom: 4rem;
-    color: var(--text);
+  margin-bottom: 4rem;
+  color: var(--text);
 }
 
 .swiperText img {
-    height: 1rem;
-}   
+  height: 1rem;
+}
 
 @media screen and (max-width: 768px) {
-    .textContainer h2 {
-      font-size: 1.4rem;
-    }
+  .textContainer h2 {
+    font-size: 1.4rem;
   }
+}
+
+@media (max-width: 440px) {
+    .container {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        overflow: hidden;
+    }
+
+    .container h2 {
+        font-size: 2rem;
+    }
+}

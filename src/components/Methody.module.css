@@ -84,3 +84,21 @@ button:hover {
   letter-spacing: 0.1rem;
   cursor: pointer;
 }
+
+@media (max-width: 440px) {
+  .wrapper{
+    max-width: 90%;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  .cards div {
+    width: 90%;
+  }
+
+  .button button {
+    width: 90%;
+  }
+}
