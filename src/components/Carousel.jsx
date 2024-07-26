@@ -36,22 +36,10 @@ export function Carousel() {
             className="mySwiper"
           >
             <SwiperSlide>
-              <img src="./slide3.png" alt="" />
+              <img src="./slide1.png" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="./slide3.png" alt="" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src="./slide3.png" alt="" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src="./slide3.png" alt="" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src="./slide3.png" alt="" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src="./slide3.png" alt="" />
+              <img src="./slide2.png" alt="" />
             </SwiperSlide>
           </Swiper>
         </div>

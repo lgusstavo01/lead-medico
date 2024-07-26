@@ -85,9 +85,21 @@ button:hover {
   cursor: pointer;
 }
 
+@media screen and (max-width: 1280px) {
+  .wrapper {
+    max-width: 90%;
+  }
+
+}
+
 @media (max-width: 440px) {
   .wrapper{
-    max-width: 90%;
+    max-width: 85%;
+    padding: 4rem 0;
+  }
+
+  .title h2 {
+    font-size: 2rem;
   }
 
   .cards {
@@ -99,6 +111,6 @@ button:hover {
   }
 
   .button button {
-    width: 90%;
+    width: 100%;
   }
 }

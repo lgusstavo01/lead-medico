@@ -74,10 +74,25 @@
   letter-spacing: 0.3rem;
 }
 
-@media (max-width: 440px) {
+@media screen and (max-width: 1280px) {
   .wrapper {
     max-width: 90%;
+  }
+
+}
+
+@media (max-width: 440px) {
+  .wrapper {
+    max-width: 85%;
     overflow: hidden;
+  }
+
+  .wrapper div h2 {
+    font-size: 2.3rem;
+  }
+
+  .wrapper div p {
+    font-size: 1rem;
   }
 
   .video{
@@ -91,5 +106,9 @@
 
   .video button {
     font-size: 0.85rem;
+  }
+
+  .wrapper button {
+    font-size: 1rem;
   }
 }
